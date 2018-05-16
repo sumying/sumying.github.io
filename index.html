@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Open+Sans" rel="stylesheet">
+
+<head>
+        <meta charset="utf-8">
+        <title>sumying.github.io</title>
+        <meta name="description" content="sumying's personal website">
+        <meta name="author" content="Sum Ying Lam">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+        
+        <!--Bootstrap CDN-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Résumé</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-sm-4" id="about" a name="about"></a>
+                <img class="img-responsive" class="img-thumbnail" src= "uhme.jpeg" alt="this is what I look like!">
+            </div>
+        
+            <div class="col-sm-8">
+                <p>Hi, I'm Sum Ying! </br>I'm a recent graduate of the University of Pittsburgh, Class of 2017.<br> 
+                    I'm currently enrolled in Academy Pittsburgh, a full stack web development bootcamp in Pittsburgh, PA.<br>
+                    I hold a BS in biological sciences and have previously conducted research for the  
+                    University of Pittsburgh Center for Neurosciene (CNUP), as well as the national Society for Neurosciene(SfN).<br>
+                    Come check out what I've done, and feel free to leave me your feedback!
+                </p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4" id="portfolio" a name="portfolio"></a>
+                <p>Portfolio</p>
+                <p>Below are a few of my projects--the accompanying code for the selected projects, 
+                    as well as many others, can be found on my <a href="https://github.com/sumying">Github page.</a>
+                </p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4" id="resume" a name="resume"></a>
+                <p>Résumé</p>
+                
+                <iframe src="https://resume.creddle.io/embed/5x945ybbin6"
+                width="850" height="1100" seamless></iframe>           
+    
+                <p>click <a class="right-link" href="Lam_SumYing_Resume.pdf">here</a> to download résumé as a PDF</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 id="contact" a name="connect"">
+                <p>Contact me here, and I'll try to get back to you as soon as I can!</p>
+
+                <form method="post" action="form.php">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="name" class="form-control" id="name">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="subject" class="form-control" id="subject">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea type="message" class="form-control" id="message"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm-8" id="connect" a name="connect"></a>
+                <p>Connect with me!</p>
+                <a href="https://www.facebook.com/sumying.lam.3?ref=bookmarks"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="mailto:sumyinglam@gmail.com?Subject=Hello!" target="_top"><i class="far fa-envelope fa-lg"></i></a>
+            </div> 
+        </div>
+                    
+    </div>
+        
+
+    <button onclick="scrollUp()" id="upBtn" title=""><i class="fas fa-angle-up"></i></button>
+            
+    <script>
+    </script> 
+               
+</body>
+
+</html>
+    
