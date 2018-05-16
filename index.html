@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Open+Sans" rel="stylesheet">
+
+<head>
+        <meta charset="utf-8">
+        <title>sumying.github.io</title>
+        <meta name="description" content="sumying's personal website">
+        <meta name="author" content="Sum Ying Lam">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+        
+        <!--Bootstrap CDN-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        body{
+        font-family: "Open Sans", sans-serif;
+        }
+        ul{
+        /* position: -webkit-sticky; */
+        position: sticky;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: lightgray;
+        }
+        li{
+            float: right;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: right;
+            padding: 10px;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: darkgray;
+        }
+        #upBtn{
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            font-size: 15px;
+            border: none;
+            outline: none;
+            background-color: darkgray;
+            color: white;
+            cursor: pointer;
+            padding: 10px 15px;
+            border-radius: 0px;
+        }
+        #upBtn:hover{
+            background-color: lightgray;
+        }
+        #connect a{
+            margin:5px;
+            color: darkgray;
+        }
+        #connect a:hover{
+            color:rgb(33, 48, 136);
+        }
+        #about img{
+            height: 150px;
+            width: 150px;
+            margin: 10px;
+        }
+        #about p{
+            text-align: right;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Résumé</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+ 
+        <div class="sections">  
+
+            <div id="about" a name="about"></a>
+                <img src= "uhme.jpg" alt="it me!">
+                <p>Hi, I'm Sum Ying! I'm a recent graduate of the University of Pittsburgh, Class of 2017.<br> 
+                    I'm currently enrolled in Academy Pittsburgh, a full stack web development bootcamp in Pittsburgh, PA.<br>
+                    I hold a BS in biological sciences and have previously conducted research for the  
+                    University of Pittsburgh Center for Neurosciene (CNUP), as well as the national Society for Neurosciene(SfN).<br>
+                    Come check out what I've done, and feel free to leave me your feedback!
+                </p>
+            </div>
+
+            <div id="portfolio" a name="portfolio"></a>
+                <p>Portfolio</p>
+            </div>
+    
+            <div id="research" a name="research"></a>
+                <p>Research</p>
+            </div>
+            
+            <div id="resume" a name="resume"></a>
+                <p>Résumé</p>
+            </div>
+        
+            <div id="connect" a name="connect"></a>
+                <p>Connect with me!</p>
+                <a href="https://www.facebook.com/sumying.lam.3"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin fa-lg"></i></a>
+                <a href="mailto:sumyinglam@gmail.com?Subject=Hello!" target="_top"><i class="far fa-envelope fa-lg"></i></a>
+            </div> 
+            
+        </div>
+            
+        <button onclick="scrollUp()" id="upBtn" title=""><i class="fas fa-angle-up"></i></button>
+            
+        <script>
+        </script>
+            
+    </div>
+</body>
+</html>
+    

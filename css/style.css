@@ -1,0 +1,80 @@
+
+/* just for me to visualize the bootstrap grid */
+div[class="row"] {
+outline: 1px dotted rgba(0, 0, 0, 0.25);
+}
+
+
+div[class^="col-"] {
+background-color: rgba(255, 0, 0, 0.2);
+outline: 1px dotted rgba(0, 0, 0, 0.5);
+}
+/* bootstrap grid */
+
+
+body{
+font-family: "Open Sans", sans-serif;
+font-size: 15px;
+padding-top: 55px; 
+}
+
+
+.navbar{
+    /* margin: 10px 0px; */
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+.navbar-default .navbar-nav > li > a{
+    display: inline-block;
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    background-color: darkgray;
+    text-decoration: underline;
+}
+
+
+#upBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 0px;
+}
+#upBtn:hover{
+    background-color: darkgray;
+}
+
+
+#about img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+#about p{
+    text-align: center;
+}
+
+#connect a{
+    margin:5px;
+    color: darkgray;
+}
+#connect a:hover{
+    color:rgb(33, 48, 136);
+}
+/*         label{
+    font-family: "Open Sans", sans-serif; 
+    font-size: 12px; 
+} */
+
+
